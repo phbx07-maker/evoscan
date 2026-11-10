@@ -1,0 +1,24 @@
+name: Evoscan
+options:
+  bundleIdPrefix: com.evofranklin
+  deploymentTarget:
+    iOS: "17.2"
+targets:
+  Evoscan:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.2"
+    sources:
+      - Evoscan
+    info:
+      path: Evoscan/Resources/Info.plist
+      properties:
+        CFBundleIdentifier: com.evofranklin.evoscan
+        CFBundleShortVersionString: "1.0.0"
+        CFBundleVersion: "1"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.evofranklin.evoscan
+        CODE_SIGN_IDENTITY: ""
+        CODE_SIGNING_REQUIRED: "NO"
+        CODE_SIGNING_ALLOWED: "NO"
