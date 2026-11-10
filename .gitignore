@@ -1,0 +1,21 @@
+node_modules/
+build/
+dist/
+dist-playstore/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Keystore & Secrets
+*.jks
+*.keystore
+
+# IDE & Build cache
+android/.gradle/
+android/app/build/
+.gradle/
+.aistudio/
+.antigravity/
+.vscode/

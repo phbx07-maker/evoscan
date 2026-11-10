@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.evofranklin.evoscan",
+      "sha256_cert_fingerprints": [
+        "91:64:CD:C5:53:7D:D6:C1:E9:16:B5:5A:33:54:F6:0B:EE:68:9C:5F:6C:70:F5:F3:F0:9D:F6:94:3B:2E:45:33"
+      ]
+    }
+  }
+]
