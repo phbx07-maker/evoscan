@@ -33,7 +33,7 @@ struct WebViewContainer: UIViewRepresentable {
         webView.isOpaque = false
         webView.backgroundColor = UIColor(red: 8/255, green: 11/255, blue: 17/255, alpha: 1.0)
         webView.scrollView.backgroundColor = UIColor(red: 8/255, green: 11/255, blue: 17/255, alpha: 1.0)
-        webView.scrollView.contentInsetAdjustmentBehavior = .always
+        webView.scrollView.contentInsetAdjustmentBehavior = .never
         webView.customUserAgent = "Mozilla/5.0 (iPhone; CPU iPhone OS 17_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 EvoFranklin-Evoscan-iOS/1.0.0"
 
         // Pull to refresh native iOS
